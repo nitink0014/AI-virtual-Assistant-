@@ -4,7 +4,7 @@ import { useState } from "react";
 import axios from "axios";
 
 export const userDataContext = createContext(null);
-const serverUrl = "http://localhost:8000";
+const serverUrl = "https://ai-virtual-assistant-ez64.onrender.com";
 function UserContext({ children }) {
   const [userData, setUserData] = useState(null);
   const [frontendImage, setFrontendImage] = useState(null);
